@@ -1,12 +1,12 @@
 CREATE TABLE person (
-    id INTEGER PRAMARY KEY,
+    id INTEGER PRIMARY KEY,
     first_name TEXT,
     last_name TEXT,
     age INTEGER
 );
 
 CREATE TABLE pet (
-    id INTEGER PRAMARY KEY,
+    id INTEGER PRIMARY KEY,
     name TEXT,
     breed TEXT,
     age INTEGER,
